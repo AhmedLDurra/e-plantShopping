@@ -210,6 +210,23 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
   }
+
+  .product-button:disabled {
+    background-color: #ccc;
+    color: #666;
+  }
+
+  .cart-quantity {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 2px 6px;
+    position: absolute;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+  }
   
   .product-button:hover {
     background-color: #45a049;
