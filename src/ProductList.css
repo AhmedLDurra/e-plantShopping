@@ -214,8 +214,9 @@ body {
   .product-button:disabled {
     background-color: #ccc;
     color: #666;
+    cursor: not-allowed;
   }
-
+  
   .cart-quantity {
     background-color: red;
     color: white;
